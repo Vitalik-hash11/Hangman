@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DD8FFF5628BCF99B00DF3088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8FFF5528BCF99B00DF3088 /* AppDelegate.swift */; };
 		DD8FFF5828BCF99B00DF3088 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8FFF5728BCF99B00DF3088 /* SceneDelegate.swift */; };
-		DD8FFF5A28BCF99B00DF3088 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8FFF5928BCF99B00DF3088 /* ViewController.swift */; };
+		DD8FFF5A28BCF99B00DF3088 /* HangmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8FFF5928BCF99B00DF3088 /* HangmanViewController.swift */; };
 		DD8FFF5D28BCF99B00DF3088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8FFF5B28BCF99B00DF3088 /* Main.storyboard */; };
 		DD8FFF5F28BCF99F00DF3088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8FFF5E28BCF99F00DF3088 /* Assets.xcassets */; };
 		DD8FFF6228BCF99F00DF3088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8FFF6028BCF99F00DF3088 /* LaunchScreen.storyboard */; };
+		DD8FFF6B28BCFE7200DF3088 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD8FFF6A28BCFE7200DF3088 /* words.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD8FFF5228BCF99B00DF3088 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8FFF5528BCF99B00DF3088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD8FFF5728BCF99B00DF3088 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD8FFF5928BCF99B00DF3088 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD8FFF5928BCF99B00DF3088 /* HangmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanViewController.swift; sourceTree = "<group>"; };
 		DD8FFF5C28BCF99B00DF3088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD8FFF5E28BCF99F00DF3088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD8FFF6128BCF99F00DF3088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD8FFF6328BCF99F00DF3088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8FFF6A28BCFE7200DF3088 /* words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				DD8FFF6928BCF9B800DF3088 /* SupportingFiles */,
-				DD8FFF5928BCF99B00DF3088 /* ViewController.swift */,
+				DD8FFF5928BCF99B00DF3088 /* HangmanViewController.swift */,
 				DD8FFF5B28BCF99B00DF3088 /* Main.storyboard */,
 				DD8FFF5E28BCF99F00DF3088 /* Assets.xcassets */,
+				DD8FFF6A28BCFE7200DF3088 /* words.txt */,
 				DD8FFF6328BCF99F00DF3088 /* Info.plist */,
 			);
 			path = Hangman;
@@ -135,6 +138,7 @@
 			files = (
 				DD8FFF6228BCF99F00DF3088 /* LaunchScreen.storyboard in Resources */,
 				DD8FFF5F28BCF99F00DF3088 /* Assets.xcassets in Resources */,
+				DD8FFF6B28BCFE7200DF3088 /* words.txt in Resources */,
 				DD8FFF5D28BCF99B00DF3088 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD8FFF5A28BCF99B00DF3088 /* ViewController.swift in Sources */,
+				DD8FFF5A28BCF99B00DF3088 /* HangmanViewController.swift in Sources */,
 				DD8FFF5628BCF99B00DF3088 /* AppDelegate.swift in Sources */,
 				DD8FFF5828BCF99B00DF3088 /* SceneDelegate.swift in Sources */,
 			);
